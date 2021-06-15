@@ -1,0 +1,59 @@
+
+/* Style Color Switcher Webpage */
+
+/* Style color switch buttons */
+
+/* Align heading text */
+
+#title {
+    text-align: center;
+    margin-top: 100px;
+    text-decoration-line: underline;
+}
+/* Make font size of title larger */
+h1 {
+    font-size: 50px;
+}
+
+/* Move buttons down on page */
+#buttonsect {
+    margin-top: 175px;
+}
+
+/* 
+Style buttons */
+#color1, #color2, #color3, #reset {
+    margin-top: 400px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    width: 250px;
+    margin: auto;
+    padding: 30px;
+    font-size: 18px;
+    background-color: black;
+}
+
+/* Match color of text on buttons with the background colors they represent */
+#color1 {
+    color: #ABFF4F;
+}
+
+#color2 {
+    color: #08BDBD;
+}
+
+#color3 {
+    color: #F21B3F;
+}
+
+#reset {
+    color: white;
+}
+
+/* Move the buttons up a little in mobile view */
+@media screen and (max-width: 522px) {
+    #reset {
+        margin-bottom: 100px;
+    }
+}
